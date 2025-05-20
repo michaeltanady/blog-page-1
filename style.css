@@ -3,3 +3,23 @@
     margin: 0;
     padding: 0;
 }
+ul,ol{
+    list-style: none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    margin: 100px 50px 50px 70px;
+    border: 3px solid red;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-list>ul{
+    display: flex;
+}
